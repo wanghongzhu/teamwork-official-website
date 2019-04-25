@@ -1,0 +1,304 @@
+/* 背景部分 */
+.div-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(31, 34, 49);
+  z-index: -99;
+}
+
+.div-1,
+.div-2,
+.div-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid transparent;
+}
+
+.star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(243, 242, 214);
+  border-radius: 50%;
+}
+
+
+/* 主页内容部分 */
+.xm-home {
+  padding-top: 100px;
+}
+
+.xm-home-div-1 {
+  width: 55%;
+  margin-left: 20px;
+}
+
+.xm-home-div-2 {
+  width: 40%;
+}
+
+.xm-home-p-1 {
+  font-size: 34px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.xm-home-p-1:nth-child(1) {
+  margin-top: 100px;
+}
+
+.xm-home-span-1 {
+  display: block;
+  font-size: 14px;
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.xm-home-img-1 {
+  width: 80%;
+  max-width: 450px;
+  margin-right: 20px;
+}
+
+.xm-home-div-3 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.xm-home-div-3 h3 {
+  color: #fff;
+  font-size: 34px;
+  margin: 50px 0;
+}
+
+.xm-home-div-3 p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.xm-home-div-4 {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.xm-home-div-4 ul {
+  display: flex;
+  justify-content: center;
+}
+
+.xm-home-div-4 li {
+  flex: 25%;
+}
+
+.xm-home-div-4 img {
+  width: 100px;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.xm-home-div-4 div {
+  position: relative;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.xm-home-div-4 li:hover img {
+  width: 120px;
+  height: 120px;
+  margin-top: -10px;
+}
+
+.xm-home-div-4 h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.xm-home-div-4 p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.xm-home-div-5 {
+  padding-top: 290px;
+}
+
+.xm-home-div-5>.fl {
+  margin-left: 20px;
+  width: 40%;
+}
+
+.xm-home-div-5>.fl>img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.xm-home-div-5>.fr {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.xm-home-div-5>.fr h3 {
+  color: #fff;
+  font-size: 34px;
+  margin: 40px 0;
+}
+
+.xm-home-div-5>.fr p {
+  color: #ccc;
+  line-height: 25px;
+}
+
+.xm-home-div-5 .xm-home-div-5-1 ul {
+  width: 100%;
+}
+
+.xm-home-div-5 .xm-home-div-5-1 li {
+  float: left;
+  width: 50%;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.xm-home-div-5 .xm-home-div-5-1 li img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.xm-home-div-6 {
+  padding-top: 290px;
+  padding-bottom: 100px;
+}
+.xm-home-div-6 h3 {
+  color: #fff;
+  font-size: 34px;
+  margin-top: 70px;
+}
+.xm-home-div-6 p {
+  color: #ccc;
+  margin: 20px 0;
+}
+.xm-home-div-6 p:nth-child(3) {
+  color: #ccc;
+  margin-bottom: 65px;
+}
+.xm-home-div-6 > .fr {
+  width: 55%;
+}
+.xm-home-div-6 > .fl {
+  padding-left: 20px;
+  width: 40%;
+}
+.xm-home-div-6 li {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 23%;
+  height: 120px;
+  background: #fff;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.xm-home-div-6 li img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -22%;
+  margin-left: -45%;
+  width: 90%;
+  text-align: center;
+  transition: 0.5s;
+}
+.xm-home-div-6 li:hover img {
+  width: 110%;
+  margin-left: -53%;
+  margin-top: -28%;
+}
+.xm-home-div-6 .xm-home-div-li {
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:800px) {
+  .xm-home-div-1 {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .xm-home-p-1 {
+    font-size: 28px;
+  }
+
+  .xm-home-div-2 {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .xm-home-img-1 {
+    float: none;
+    margin: 0;
+  }
+
+  .xm-home-div-4 ul {
+    flex-wrap: wrap;
+  }
+
+  .xm-home-div-4 li {
+    flex: 50%;
+    margin-bottom: 20px;
+  }
+
+  .xm-home-div-5 {
+    float: none;
+    text-align: center;
+  }
+
+  .xm-home-div-5>.fl {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  .xm-home-div-5 .fr {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  .xm-home-div-5>.fr p {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .xm-home-div-6 > .fl {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .xm-home-div-6 > .fr {
+    float: none;
+    width: 90%;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,52 @@
+body, ul, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, input, form {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 14px arial, 'microsoft yahei';
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.bx {
+	width: 1200px;
+	margin: 0 auto;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+input, textarea {
+	border: 0;
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+a {	
+	text-decoration: none;
+}
+i, em {
+	font-style: normal;
+}
+.w {
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}

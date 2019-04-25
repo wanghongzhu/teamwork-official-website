@@ -1,0 +1,72 @@
+body {
+    background: rgb(31, 34, 49) url('../images/bjt.png') no-repeat fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.w {
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    color: #ccc;
+    // 左边新闻部分
+    .fll{
+        flex: 2;
+        // 新闻导航
+        .nav {
+            .j {
+                margin: 0 20px;
+                padding-bottom: 20px;
+            }
+        }
+        // 新闻内容
+        .news {
+            padding: 25px 0 ;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            h1 {
+                padding-bottom: 25px;
+            }
+            .time {
+                padding-bottom: 25px;
+            }
+            .hope {
+                padding: 5px 0 25px 0;
+            }
+            .we {
+                padding-bottom: 10px;
+            }
+            .two {
+                padding: 5px 0 ;
+            }
+        }
+    }
+    // 右边验证码部分
+    .frr {
+        float: 1;
+        border-left: 1px solid #ccc;
+        padding-left: 20px;
+
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+    .w{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .w{
+        width: 100%;
+        .frr {
+            display: none;
+        }
+    }
+    
+}
+

@@ -1,0 +1,237 @@
+.xm-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #222532;
+  height: 90px;
+  line-height: 90px;
+  width: 100%;
+  z-index: 99;
+}
+.xm-top .fl {
+  width: 60%;
+}
+.xm-top .fr i {
+  display: inline-block;
+  width: 20px;
+}
+.xm-top-a-1 {
+  display: block;
+  float: left;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 16px;
+  padding: 0 4%;
+}
+.xm-top-a-1:hover {
+  color: #E7615E;
+  transition: 0.5s;
+}
+.xm-top-a-gs:hover .xm-top-a-1 {
+  color: #E7615E;
+  transition: 0.5s;
+}
+.xm-top-a-sy {
+  color: #E7615E;
+}
+.top-logo {
+  height: 40px;
+}
+.top-r-a {
+  display: inline-block;
+  width: 138px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #E7615E;
+  color: #Fff;
+  font-size: 14px;
+}
+.top-r-a:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+.xm-top-div-1 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 90px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #272b39;
+}
+.xm-top-a-2 {
+  display: inline-block;
+  color: #AAAAAA;
+  font-size: 14px;
+  padding:0 5%;
+}
+.xm-top-a-2:hover {
+  color: #FFF;
+}
+.xm-top-a-2 > img {
+  height: 20px;
+}
+.xm-top-div-2 {
+  display: none;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  height: 200px;
+  background-color: #272b39;
+  width: 100%;
+}
+.xm-top-div-2 > dl {
+  float: left;
+  line-height: normal;
+  padding-top: 20px;
+  width: 10%;
+  margin-left: 5%;
+}
+.xm-top-div-2 > dl > dt {
+  width: 100%;
+}
+.xm-top-div-2 > dl > dt > a {
+  display: block;
+  height: 50px;
+}
+.xm-top-div-2 > dl > dt > a > img{
+  height: 20px;
+}
+.xm-top-div-2 > dl > dd > a {
+  display: block;
+  margin-left: 20%;
+  height: 35px;
+  width: 150%;
+}
+.xm-top-div-2 a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.82);
+}
+.xm-top-div-2 a:hover {
+  color: #FFF;
+}
+.xm-top-a-fw:hover .xm-top-a-1 {
+  color: #E7615E;
+  transition: 0.5s;
+}
+.xm-top-hui {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #888;
+  color: #fff;
+}
+.xm-top-hui:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.xm-top-min {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  height: 45px;
+  line-height: 45px;
+  width: 100%;
+  z-index: 99;
+}
+.xm-top-min-logo {
+  height: 26px;
+  margin-left: 10px;
+}
+.xm-top-min > .fr > a {
+  display: block;
+  padding: 15px;
+}
+.xm-top-min > .fr > a > i {
+  display: block;
+  height: 1px;
+  width: 18px;
+  background: #fff;
+  margin-top: 5px;
+  transition: 0.5s;
+}
+.xm-top-min > .fr > a > .xm-top-shang {
+  transform: rotatez(40deg);
+}
+.xm-top-min > .fr > a > .xm-top-xia {
+  transform: rotatez(135deg);
+  margin-top: -1px;
+}
+.xm-top-min-1 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+}
+.xm-top-min-1 > ul {
+  padding: 45px 50px 0;
+}
+.xm-top-min-1 > ul > li > a {
+  display: block;
+  border-bottom: 1px solid #333;
+  padding: 0 15px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 14px;
+}
+.xm-top-min-1 > ul > li > a:hover {
+  color: #fff;
+}
+.xm-top-min-1-right {
+  font-size: 20px;
+  /* transition: 0.5s; */
+}
+.xm-top-min-1 img {
+  padding-left: 25px;
+  height: 18px;
+}
+.xm-top-min-1 .xm-top-min-ul-1,
+.xm-top-min-1 .xm-top-min-ul-2 {
+  display: none;
+}
+.xm-top-min-1 .xm-top-min-ul-1 a {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.82);
+}
+.xm-top-min-1 .xm-top-min-ul-1 a:hover {
+  color: #fff;
+}
+.xm-top-min-1 .xm-top-min-ul-2 a {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.82);
+}
+.xm-top-min-1 .xm-top-min-ul-2 a:hover {
+  color: #fff;
+}
+.xm-top-min-1-right-1 {
+  transform: rotateZ(90deg);
+}
+
+@media only screen and (max-width:800px){
+  .xm-top {
+    display: none;
+  }
+  .xm-top-min {
+    display: block;
+  }
+}
+@media only screen and (max-width:1215px){
+  .bx {
+    width: 100%;
+  }
+}

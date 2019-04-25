@@ -1,0 +1,239 @@
+body {
+  background: #1f2231 url('../images/bjt.png') no-repeat fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.top {
+  margin-top: 200px;
+}
+.top .w {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top .w .fll {
+  background-color: #fff;
+  flex: 1;
+  padding: 4% 2%;
+  width: 50%;
+}
+.top .w .fll h2 {
+  font-size: 28px;
+  margin-bottom: 1%;
+}
+.top .w .fll p {
+  font-size: 14px;
+}
+.top .w .frr {
+  background-color: #fff;
+  flex: 1;
+  padding: 4% 2%;
+  width: 50%;
+}
+.top .w .frr h4 {
+  font-size: 16px;
+  margin-bottom: 1%;
+}
+.top .w .frr li {
+  list-style: outside;
+  margin-right: 40%;
+}
+.top .w .frr li a {
+  color: #000;
+}
+.top .w .frr li a:hover {
+  color: skyblue;
+}
+.center {
+  color: #fff;
+  margin-top: 10%;
+}
+.center .cen-t,
+.center .cen-c,
+.center .cen-b {
+  display: flex;
+  flex-wrap: wrap;
+}
+.center .fll {
+  width: 50%;
+  padding: 15% 5% 2% 2%;
+  flex: 1;
+}
+.center .fll h2 {
+  font-size: 28px;
+  padding-bottom: 3%;
+}
+.center .fll p {
+  font-size: 16px;
+  padding: 1%;
+}
+.center .frr {
+  flex: 1;
+}
+.center .frr img {
+  width: 80%;
+}
+.center .cen-c {
+  margin: 8% 0;
+}
+.center .cen-c .fll {
+  width: 30%;
+  flex: 1;
+  padding-top: 2%;
+}
+.center .cen-c .fll img {
+  width: 80%;
+}
+.center .cen-c .frr {
+  width: 50%;
+  padding: 15% 5% 2% 2%;
+  flex: 1;
+}
+.center .cen-c .frr h2 {
+  font-size: 28px;
+  padding-bottom: 3%;
+}
+.center .cen-c .frr p {
+  font-size: 16px;
+  padding: 1%;
+}
+.center .cen-b .fll {
+  padding-top: 10%;
+}
+.serve {
+  padding-top: 10%;
+}
+.serve h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 5%;
+}
+.serve ._serve {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.serve ._serve .t,
+.serve ._serve .b {
+  display: flex;
+  flex: 1;
+}
+.serve ._serve .item {
+  flex: 1;
+  background-color: #fff;
+  margin-right: 3%;
+  text-align: center;
+  padding: 5% 0;
+}
+.serve ._serve .item img {
+  width: 30%;
+  padding-bottom: 10%;
+}
+.serve ._serve .item h3 {
+  font-size: 18px;
+  padding-bottom: 5%;
+}
+.serve ._serve .item p {
+  font-size: 14px;
+  color: #a7a2a2;
+}
+.serve ._serve .fi {
+  margin-right: 0;
+}
+.call {
+  background: url('../images/1263_w2000.jpg') center;
+  margin: 5% 0;
+}
+.call .bgc {
+  width: 100%;
+  background-color: rgba(6, 9, 32, 0.8);
+}
+.call .w {
+  display: flex;
+  padding: 5% 0;
+  color: #fff;
+}
+.call .w .left {
+  flex: 1;
+}
+.call .w .left h3 {
+  font-size: 20px;
+  margin: 3% 0;
+  padding-left: 30%;
+}
+.call .w .left p {
+  font-size: 12px;
+  padding-left: 30%;
+}
+.call .w span {
+  border: 2px solid #666;
+}
+.call .w .right {
+  flex: 1;
+  text-align: center;
+}
+.call .w .right input {
+  width: 20%;
+  background-color: #eb1919;
+  margin-top: 4%;
+  border-radius: 18px;
+  padding: 2%;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1200px) {
+  .w {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .w {
+    width: 100%;
+  }
+  .fll,
+  .frr {
+    min-width: 320px;
+    max-width: 767px;
+    width: 100%;
+  }
+  .frr {
+    margin-top: 10px;
+  }
+  .center .w .cen-t .frr,
+  .center .w .cen-b .frr {
+    text-align: center;
+  }
+  .center .w .cen-c .fll {
+    text-align: center;
+  }
+  ._serve .t,
+  ._serve .b {
+    min-width: 320px;
+    max-width: 767px;
+    width: 100%;
+  }
+  ._serve .item {
+    width: 50%;
+  }
+  ._serve .item:nth-child(1) {
+    margin-left: 3%;
+  }
+  ._serve .b {
+    margin-top: 3%;
+  }
+  ._serve .b .fi {
+    margin-right: 3%;
+  }
+  .call .w .right input {
+    width: 50%;
+    margin-top: 10%;
+  }
+}

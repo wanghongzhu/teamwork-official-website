@@ -1,0 +1,330 @@
+body {
+  background: rgb(31, 34, 49) url('../images/bjt.png') no-repeat fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+// 顶部部分
+.top {
+  margin-top: 200px;
+
+  .w {
+    display: flex;
+    flex-wrap: wrap;
+
+    .fll {
+      background-color: #fff;
+      flex: 1;
+      padding: 4% 2%;
+      width: 50%;
+
+      h2 {
+        font-size: 28px;
+        margin-bottom: 1%;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .frr {
+      background-color: #fff;
+      flex: 1;
+      padding: 4% 2%;
+      width: 50%;
+
+      h4 {
+        font-size: 16px;
+        margin-bottom: 1%;
+      }
+
+      li {
+        list-style: outside;
+        margin-right: 40%;
+
+        a {
+          color: #000;
+        }
+        a:hover {
+          color:skyblue; 
+        }
+      }
+    }
+  }
+}
+
+// 中间部分
+.center {
+  color: #fff;
+  margin-top: 10%;
+
+  .cen-t,
+  .cen-c,
+  .cen-b {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .fll {
+    width: 50%;
+    padding: 15% 5% 2% 2%;
+    flex: 1;
+
+    h2 {
+      font-size: 28px;
+      padding-bottom: 3%;
+    }
+
+    p {
+      font-size: 16px;
+      padding: 1%;
+    }
+  }
+
+  .frr {
+    // width: 30%;
+    flex: 1;
+
+    img {
+      width: 80%;
+    }
+  }
+
+  .cen-c {
+    margin: 8% 0;
+
+    .fll {
+      width: 30%;
+      flex: 1;
+      padding-top: 2%;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .frr {
+      width: 50%;
+      padding: 15% 5% 2% 2%;
+      flex: 1;
+
+      h2 {
+        font-size: 28px;
+        padding-bottom: 3%;
+      }
+
+      p {
+        font-size: 16px;
+        padding: 1%;
+      }
+    }
+  }
+
+  .cen-b {
+    .fll {
+      padding-top: 10%;
+    }
+  }
+}
+
+// 服务流程部分
+.serve {
+  padding-top: 10%;
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5%;
+  }
+
+  ._serve {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .t,
+    .b {
+      display: flex;
+      // flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .item {
+      flex: 1;
+      background-color: #fff;
+      margin-right: 3%;
+      text-align: center;
+      padding: 5% 0;
+
+      img {
+        width: 30%;
+        padding-bottom: 10%;
+      }
+
+      h3 {
+        font-size: 18px;
+        padding-bottom: 5%;
+      }
+
+      p {
+        font-size: 14px;
+        color: rgb(167, 162, 162);
+      }
+    }
+
+    .fi {
+      margin-right: 0;
+    }
+  }
+}
+
+// 联系我们部分
+.call {
+  background: url('../images/1263_w2000.jpg') center;
+  margin: 5% 0;
+
+  .bgc {
+    width: 100%;
+    background-color: rgba(6, 9, 32, 0.8);
+  }
+
+  .w {
+    display: flex;
+    padding: 5% 0;
+    color: #fff;
+
+    .left {
+      flex: 1;
+
+      h3 {
+        font-size: 20px;
+        margin: 3% 0;
+        padding-left: 30%;
+      }
+
+      p {
+        font-size: 12px;
+        padding-left: 30%;
+      }
+    }
+
+    span {
+      border: 2px solid #666;
+    }
+
+    .right {
+      flex: 1;
+      text-align: center;
+
+      input {
+        width: 20%;
+        background-color: rgb(235, 25, 25);
+        margin-top: 4%;
+        border-radius: 18px;
+        padding: 2%;
+        font-size: 14px;
+        color: #fff;
+
+      }
+    }
+  }
+}
+
+
+
+//如果是平板设备
+@media only screen and (max-width: 1200px) {
+  .w {
+    width: 100%;
+  }
+}
+
+//如果是手机设备
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .w {
+    width: 100%;
+  }
+
+  .fll,
+  .frr {
+    min-width: 320px;
+    max-width: 767px;
+    width: 100%;
+  }
+
+  .frr {
+    margin-top: 10px;
+  }
+  
+  .center {
+    .w {
+
+      .cen-t,
+      .cen-b {
+        .frr {
+          text-align: center;
+
+          
+        }
+      }
+
+      .cen-c {
+        .fll {
+          text-align: center;
+
+          
+        }
+      }
+    }
+
+  }
+
+  ._serve {
+
+    .t,
+    .b {
+      min-width: 320px;
+      max-width: 767px;
+      width: 100%;
+    }
+
+    .item {
+      width: 50%;
+    }
+
+    .item:nth-child(1) {
+      margin-left: 3%;
+    }
+
+    .b {
+      margin-top: 3%;
+
+      .fi {
+        margin-right: 3%;
+      }
+    }
+  }
+
+  .call {
+    .w {
+      .right {
+        input {
+          width: 50%;
+          margin-top: 10%;
+
+        }
+      }
+    }
+  }
+}

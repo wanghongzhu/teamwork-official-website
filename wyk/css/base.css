@@ -1,0 +1,61 @@
+body, ul, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, input, form {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+input {
+	border: 0;
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+a {	
+	text-decoration: none;
+}
+i, em {
+	font-style: normal;
+}
+.wraper {
+	width: 1200px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+body {
+    font: 12px arial, 'microsoft yahei';
+    background: rgb(31, 34, 49) url('../img/bjt.png') no-repeat fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.bx {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width:1215px) {
+	.wraper {
+		width: 100%;
+	}
+}

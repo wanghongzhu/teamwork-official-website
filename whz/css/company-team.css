@@ -1,0 +1,111 @@
+body {
+  background: #1f2231 url('../images/background.png') no-repeat fixed;
+}
+.new {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 180px;
+  color: #575C5C;
+}
+.new .left,
+.new .right {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 32px 0 32px 0;
+}
+.new .left h2 {
+  margin-left: 35px;
+  color: #000;
+  font-size: 32px;
+  height: 54px;
+}
+.new .left p {
+  margin-left: 35px;
+}
+.new .right h4 {
+  margin-left: 35px;
+  font-size: 16px;
+  height: 32px;
+}
+.new .right a {
+  color: #575C5C;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.new .right .new2 {
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.new .right .new2 div:last-child {
+  width: 66px;
+  margin: 0 50px ;
+  color: #ACAEAE;
+}
+.team-h {
+  display: flex;
+  width: 100%;
+  margin-top: 55px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.team-h div:last-child {
+  text-align: center;
+}
+.team-h div {
+  width: 40%;
+  color: #CCCCCC;
+}
+.team-h div h3 {
+  color: #fff;
+  font-size: 26px;
+  height: 60px;
+}
+.team-h div p {
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.team-h div img {
+  width: 84%;
+}
+.te-team {
+  margin-top: 90px;
+  text-align: center;
+}
+.te-team h3 {
+  color: #fff;
+  font-size: 26px;
+  height: 60px;
+}
+.te-team p {
+  margin-bottom: 50px;
+  color: #ccc;
+}
+.te-team .swiper-container {
+  width: 100%;
+}
+.te-team .swiper-container .swiper-slide {
+  background: #fff;
+}
+.te-team .swiper-container .swiper-slide img {
+  width: 100%;
+}
+.te-team .swiper-container .swiper-slide .text {
+  text-align: left;
+  padding: 20px;
+}
+.te-team .swiper-container .swiper-slide .text h5 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.te-team .swiper-container .swiper-slide .text p {
+  margin-bottom: 10px;
+}
+.show1,
+.show2 {
+  margin-bottom: 130px;
+}

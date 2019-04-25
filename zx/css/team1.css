@@ -1,0 +1,102 @@
+body {
+  background-color: #1F2231;
+}
+body .main {
+  margin-top: 142px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+body .main .new-l {
+  width: 77%;
+}
+body .main .new-l .nav a {
+  color: #484a4e;
+}
+body .main .new-l .nav a:last-child {
+  color: #888;
+}
+body .main .new-l .nav span {
+  color: #888888;
+  margin: 0 10px;
+}
+body .main .new-l .content {
+  color: #2F3033;
+  margin: 12px 0;
+  padding: 33px 0;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+}
+body .main .new-l .content img {
+  width: 70%;
+}
+body .main .new-l .content h1 {
+  font-size: 36px;
+  line-height: 68px;
+}
+body .main .new-l .content .time {
+  font-size: 13px;
+  color: #888 ;
+  margin-bottom: 23px;
+}
+body .main .new-l .content p {
+  color: #484a4e;
+  margin-top: 20px;
+}
+body .main .new-l .content .last {
+  padding-left: 50px;
+}
+body .main .new-l .share span {
+  vertical-align: middle;
+  color: #888;
+}
+body .main .new-l .share a {
+  vertical-align: middle;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(../images/未标题-1_02.png) no-repeat;
+  background-position: -1px 0;
+  background-size: 277.3px 32px;
+  margin-right: 5px;
+}
+body .main .new-l .share a:nth-child(2) {
+  background-position: -42px 0;
+}
+body .main .new-l .share a:nth-child(3) {
+  background-position: -83px 0;
+}
+body .main .new-l .share a:nth-child(4) {
+  background-position: -123.67px 0;
+}
+body .main .new-l .share a:nth-child(5) {
+  background-position: -164px 0;
+}
+body .main .new-l .share a:nth-child(6) {
+  background-position: -204.67px 0;
+}
+body .main .new-l .share a:nth-child(7) {
+  background-position: -245.67px 0;
+}
+body .main .new-l .share a:hover {
+  opacity: .8;
+}
+body .main .new-m {
+  width: 1%;
+}
+body .main .new-m .line {
+  width: 1px;
+  height: 100%;
+  background-color: #EEEEEE;
+}
+body .main .new-r {
+  text-align: center;
+  width: 15%;
+}
+body .main .new-r img {
+  width: 100%;
+}
+body .main .new-r p {
+  margin-top: 10px;
+  color: #484a4e;
+}

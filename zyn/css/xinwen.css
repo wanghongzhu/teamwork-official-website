@@ -1,0 +1,59 @@
+body {
+  background: #1f2231 url('../images/bjt.png') no-repeat fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.w {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  color: #ccc;
+}
+.w .fll {
+  flex: 2;
+}
+.w .fll .nav .j {
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+.w .fll .news {
+  padding: 25px 0 ;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.w .fll .news h1 {
+  padding-bottom: 25px;
+}
+.w .fll .news .time {
+  padding-bottom: 25px;
+}
+.w .fll .news .hope {
+  padding: 5px 0 25px 0;
+}
+.w .fll .news .we {
+  padding-bottom: 10px;
+}
+.w .fll .news .two {
+  padding: 5px 0 ;
+}
+.w .frr {
+  float: 1;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .w {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .w {
+    width: 100%;
+  }
+  .w .frr {
+    display: none;
+  }
+}

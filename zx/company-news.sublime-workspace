@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"log",
+				"logo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/自己的/css/company-news.css",
+		"/C/Users/Administrator/Desktop/自己的/company-news.html",
+		"/D/基础班65期/07  CSS基础五/课上跟练/03透明的设置.html",
+		"/C/Users/Administrator/Desktop/自己的/company-team.html",
+		"/C/Users/Administrator/Desktop/王红珠/company-team.html",
+		"/C/Users/Administrator/Desktop/王红珠/company-news.html",
+		"/C/Users/Administrator/Desktop/第七组/自己先写着/xmTop.js",
+		"/C/Users/Administrator/Desktop/第七组/自己先写着/xmTop.css",
+		"/C/Users/Administrator/Desktop/第七组/自己先写着/1.html",
+		"/C/Users/Administrator/Desktop/第七组/company-team.html",
+		"/C/Users/Administrator/Desktop/第七组/自己先写着/地图.html",
+		"/C/Users/Administrator/Desktop/第七组/自己先写着/地图.css",
+		"/C/Users/Administrator/Desktop/第七组/自己先写着/1.css",
+		"/C/Users/Administrator/Desktop/第七组/自己先写着/2.css",
+		"/D/就业班67期/05 js高级/01 js高级第一天/课上跟练/10-获取原型.html",
+		"/D/就业班67期/05 js高级/01 js高级第一天/课上跟练/06-构造函数和普通函数的区别.html",
+		"/D/就业班67期/04  jQuery/06 jQuery第六天/课上跟练/03-DOM操作播放和暂停视频或音频.html",
+		"/C/Users/Administrator/Desktop/102-源代码/04-jQ案例-音乐导航条/音乐导航条.html",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课下作业/音乐导航条/音乐导航条.html",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课下作业/音乐导航条/index.js",
+		"/C/Users/Administrator/Desktop/删除数组中指定元素.html",
+		"/C/Users/Administrator/Desktop/202-源代码/07-end方法的使用.html",
+		"/C/Users/Administrator/Desktop/自己先写着/1.html",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课下作业/13-jQ案例-购物车综合案例事件委托版/05-购物车-删除-删除选中项-清空/car.html",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课下作业/13-jQ案例-购物车综合案例事件委托版/05-购物车-删除-删除选中项-清空/js/markdow.md",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课下作业/13-jQ案例-购物车综合案例事件委托版/05-购物车-删除-删除选中项-清空/js/car.js",
+		"/C/Users/Administrator/Desktop/项目/38147.html",
+		"/C/Users/Administrator/Desktop/项目/1.html",
+		"/D/别人给的视频/王/05-jQuery/02-jQuery/02-源代码/03-放大镜切换项/index.css",
+		"/D/别人给的视频/王/05-jQuery/03-jQuery/03-day03/作业/css/index.css",
+		"/D/别人给的视频/王/05-jQuery/03-jQuery/03-day03/作业/css/index1.css",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课上跟练/07-jQ案例-楼梯导航/js/index.js",
+		"/D/别人给的视频/王/05-jQuery/04-day04/02-源代码/05-音乐导航条/index.js",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课上跟练/08-jQ案例-楼梯导航/index.html",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课上跟练/08-jQ案例-楼梯导航/js/index.js",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课上跟练/07-jQ案例-楼梯导航/index.html",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课上跟练/06-jQ案例-固定导航和回到顶部/index.html",
+		"/D/就业班67期/04  jQuery/05 jQuery第五天/课上跟练/06-jQ案例-固定导航和回到顶部/js/index.js",
+		"/C/Users/Administrator/Desktop/05-音乐导航条/音乐导航条.html",
+		"/C/Users/Administrator/Desktop/05-音乐导航条/index.js",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/自己的雪花/js/index2.js",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/自己的雪花/js/snow1.js",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/自己的雪花/index.html",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/无背景雪花/index (2).html",
+		"/D/就业班67期/04  jQuery/04 jQuery第四天/课上跟练/01-jQuery中的入口函数.html",
+		"/D/就业班67期/04  jQuery/04 jQuery第四天/课上跟练/02-jQuery中的动态操作元素.html",
+		"/C/Users/Administrator/Desktop/01-购物车综合案例2/05-购物车综合案例-删除-删除所选的-清空/js/car.js",
+		"/C/Users/Administrator/Desktop/全选操作/js/car.js",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/自己雪花/全屏雪花背景手风琴/js/snow1.js",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/自己雪花/全屏雪花背景手风琴/js/index.js",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/自己雪花/全屏雪花背景手风琴/index.html",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课下作业/自己雪花/index (2).html",
+		"/C/Users/Administrator/Desktop/202-源代码/04-jQ-综合案例/01-购物车-生成表格/js/car.js",
+		"/D/别人给的视频/王/05-jQuery/04-day04/02-源代码/02-京东轮播图/js/index.js",
+		"/D/别人给的视频/王/05-jQuery/05-day05/02-源代码/03-zepto版轮播图/js/index.js",
+		"/D/别人给的视频/王/05-jQuery/05-day05/02-源代码/04-swiper版轮播图/css/index.css",
+		"/D/别人给的视频/王/05-jQuery/05-day05/02-源代码/03-zepto版轮播图/index.html",
+		"/D/别人给的视频/王/05-jQuery/04-day04/02-源代码/02-京东轮播图/京东轮播图.html",
+		"/D/别人给的视频/王/05-jQuery/02-jQuery/02-源代码/11-京东轮播图/京东轮播图.html",
+		"/D/别人给的视频/王/05-jQuery/02-jQuery/02-源代码/05-发送验证码.html",
+		"/D/别人给的视频/王/05-jQuery/02-jQuery/02-源代码/04-发送验证码.html",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课上跟练/19-02-源代码/03.操作表单.html",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课上跟练/jq-day03-静态页面/发送验证码控制按钮禁用.html",
+		"/D/就业班67期/04  jQuery/03 jQuery第三天/课上跟练/jq-day03-静态页面/放大镜切换项/index1.html",
+		"/D/就业班67期/04  jQuery/02 jQuery第二天/课上跟练/03-jQuery操作事件.html",
+		"/D/就业班67期/04  jQuery/02 jQuery第二天/课上跟练/01-DOM对象转jQuery对象.html",
+		"/D/就业班67期/04  jQuery/02 jQuery第二天/02-源代码/08-案例-下拉菜单/下拉菜单页面.html",
+		"/D/就业班67期/04  jQuery/02 jQuery第二天/静态页面/01-表格隔行变色页面.html",
+		"/D/就业班67期/04  jQuery/01 jQuery第一天/课上跟练/02-移动web/08-移动web页面-自动轮播/index.html",
+		"/D/就业班67期/04  jQuery/01 jQuery第一天/课上跟练/02-移动web/06-移动web页面-小点同步切换/index.html",
+		"/D/就业班67期/03  webAPI/webapi第八天/课上跟练/2、touch事件对象.html",
+		"/D/就业班67期/03  webAPI/webapi第八天/课上跟练/练习/轮播图/js/index.js",
+		"/D/2019寒假作业/助教布置的/模板/pinyougou/index.html",
+		"/D/就业班67期/03  webAPI/webapi第七天/课上跟练/moveElement.js",
+		"/D/就业班67期/03  webAPI/webapi第六天/课下作业/10.加载事件.html",
+		"/D/就业班67期/03  webAPI/webapi第六天/课上跟练/6、location对象.html",
+		"/D/就业班67期/03  webAPI/webapi第四天/课下作业/发布微博/weibo.html",
+		"/D/就业班67期/03  webAPI/webapi第四天/课下作业/发布微博/weibo模板.html",
+		"/D/就业班67期/03  webAPI/webapi第四天/课下作业/动态创建表格/user.html",
+		"/D/就业班67期/03  webAPI/webapi第四天/课下作业/动态创建表格/js/user.js",
+		"/D/就业班67期/03  webAPI/webapi第四天/课下作业/动态创建表格/js/tables.js",
+		"/D/就业班67期/03  webAPI/webapi第四天/课下作业/动态创建表格/user模板.html",
+		"/D/就业班67期/03  webAPI/webapi第四天/老师给的视频/webAPI-day4/代码/练习/图片跟着鼠标移动/index.html",
+		"/C/Users/Administrator/Desktop/1.html",
+		"/D/就业班67期/03  webAPI/webapi第二天/课下作业/111111111111111111.html",
+		"/D/就业班67期/03  webAPI/webapi第一天/课上跟练/练习/美女相册/css/index.css",
+		"/D/就业班67期/03  webAPI/webapi第一天/课上跟练/练习/美女相册/美女相册模板.html",
+		"/D/就业班67期/03  webAPI/webapi第一天/课上跟练/5、获取元素.html",
+		"/D/就业班67期/03  webAPI/webapi第一天/课上跟练/4、获取元素.html",
+		"/D/就业班67期/03  webAPI/webapi第一天/课上跟练/练习/美女相册/美女相册.html",
+		"/D/王/03-WEB API/DAY2/webAPI  第二天预习/02-源代码/美女相册/15-美女相册.html",
+		"/D/王/03-WEB API/DAY1/作业2-1.html",
+		"/D/王/03-WEB API/DAY1/作业2-2.html",
+		"/C/Users/Administrator/Desktop/看看/3.html",
+		"/C/Users/Administrator/Desktop/看看/2.html",
+		"/C/Users/Administrator/Desktop/冒泡排.html",
+		"/C/Users/Administrator/Desktop/代码4.html",
+		"/C/Users/Administrator/Desktop/代码3.html",
+		"/C/Users/Administrator/Desktop/代码2.html",
+		"/C/Users/Administrator/Desktop/代码1.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第三天/课下作业/6.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第四天/课下作业/1.html",
+		"/C/Users/Administrator/Desktop/看看/1.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第三天/课下作业/4.html",
+		"/D/王/02-js基础/作业梳理/date.html",
+		"/D/王/02-js基础/作业梳理/js1.html",
+		"/D/王/02-js基础/作业梳理/js4.html",
+		"/C/Users/Administrator/Desktop/老师带领整理的笔记/1-19/数组、函数、对象总结/代码/index.html",
+		"/D/JS基础周末练习/1/2.html",
+		"/D/JS基础周末练习/1/1.html",
+		"/D/JS基础周末练习/1/min.js",
+		"/D/JS基础周末练习/1/笔记/01-JavaScript基础.md",
+		"/D/周末联系/1/1.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第五天/上课跟练/15自定义构造函数创建对象.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第五天/上课跟练/13对象的创建.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第五天/上课跟练/14创建对象的简写方式.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第四天/预习/讲义-函数/1.html",
+		"/C/Users/Administrator/Desktop/新建文件夹/预习资料/数组预习/代码/3、数组练习.html",
+		"/C/Users/Administrator/Desktop/新建文件夹/预习资料/数组预习/代码/2、数组.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第一天/课上跟练/14其他类型转数值类型.html",
+		"/D/就业班67期/01  移动web/移动web第五天/课下作业/weijinsuoanli.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第二天/课上跟练/1.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第二天/课上跟练/01算术运算符。html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第一天/课下作业/04变量.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第一天/课上跟练/hm.js",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第一天/课下作业/03js书写位置外联式.html",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第一天/课下作业/hh.js",
+		"/D/就业班67期/02  JavaScript基础/JavaScript基础第一天/课下作业/02js 书写位置内嵌式.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(){\n",
+			"150px",
+			"footer-B",
+			"sprit",
+			"wb",
+			"footer",
+			"ribbon-icon-cheap",
+			"nav",
+			"oppologo.png",
+			"logo fl",
+			"pro\n",
+			">\n",
+			"\n",
+			"text-decoration:\n",
+			";\n",
+			"</p>",
+			"div",
+			"<p>",
+			"checkbox",
+			"  ",
+			"<p>\n	哒哒哒哒哒哒多多多大多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多	\n	</p>",
+			"p",
+			"%u",
+			"1111",
+			"p",
+			"流风清音"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</div>",
+			"<div>",
+			"div",
+			"\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "company-news.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"基础班65期\\02\\第三天的预习\\11通配符选择器.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

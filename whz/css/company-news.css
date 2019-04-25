@@ -1,0 +1,96 @@
+body {
+  background: #1f2231 url('../images/background.png') no-repeat fixed;
+}
+.new {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 180px;
+  color: #575C5C;
+}
+.new .left,
+.new .right {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 32px 0 32px 0;
+}
+.new .left h2 {
+  margin-left: 35px;
+  color: #000;
+  font-size: 32px;
+  height: 54px;
+}
+.new .left p {
+  margin-left: 35px;
+}
+.new .right h4 {
+  margin-left: 35px;
+  font-size: 16px;
+  height: 32px;
+}
+.new .right a {
+  color: #575C5C;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.new .right .new2 {
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.new .right .new2 div:last-child {
+  width: 66px;
+  margin: 0 50px ;
+  color: #ACAEAE;
+}
+.new-text {
+  margin: 148px 0 100px 0;
+}
+.new-text p {
+  color: #CCCCCC;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+.new-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.new-content .block {
+  position: relative;
+  background-color: #fff;
+  padding: 68px 30px 20px 30px;
+  margin-bottom: 50px;
+}
+.new-content .block a {
+  display: flex;
+  color: #999;
+}
+.new-content .block a .new-time {
+  width: 40%;
+}
+.new-content .block a .new-time p {
+  width: 100px;
+  font-size: 30px;
+  color: #575C5C;
+}
+.new-content .block a .new-main h3 {
+  color: #000;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.new-content .block a .new-main p {
+  margin-bottom: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

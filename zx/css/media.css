@@ -1,0 +1,98 @@
+@media only screen and (min-width: 480px) {
+  html body .w {
+    width: 100%;
+  }
+  html body .w .main {
+    padding: 0 10px;
+  }
+  html body .w .main .show1 {
+    display: none;
+  }
+  html body .w .main .show2 {
+    display: block;
+  }
+  html body .w .main .new .left,
+  html body .w .main .new .right {
+    width: 100%;
+  }
+  html body .w .main .team-h div {
+    width: 100%;
+  }
+  html body .w .main .team-h div img {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html body .w {
+    width: 100%;
+  }
+  html body .w .main .show1 {
+    display: block;
+  }
+  html body .w .main .show2 {
+    display: none;
+  }
+  html body .w .main .new .left,
+  html body .w .main .new .right {
+    width: 50%;
+  }
+  html body .w .main .team-h div {
+    width: 40%;
+  }
+  html body .w .main .team-h div img {
+    width: 84%;
+  }
+  html body .w .main .new-content .block {
+    width: 42%;
+  }
+}
+@media only screen and (min-width: 980px) {
+  html body .w {
+    width: 100%;
+  }
+  html body .w .main .show1 {
+    display: block;
+  }
+  html body .w .main .show2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html body .w {
+    width: 1200px;
+  }
+  html body .w .main {
+    padding: 0;
+  }
+  html body .w .main .show1 {
+    display: block;
+  }
+  html body .w .main .show2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  html body .w .main {
+    width: 93%;
+    padding: 0 10px;
+  }
+  html body .w .main .show1 {
+    display: none;
+  }
+  html body .w .main .show2 {
+    display: block;
+  }
+  html body .w .main .new-content .block {
+    width: 100%;
+  }
+  html body .w .main .team-h div {
+    width: 100%;
+  }
+  html body .w .main .team-h div img {
+    width: 70%;
+  }
+  html body .w .main .new .left,
+  html body .w .main .new .right {
+    width: 100%;
+  }
+}
